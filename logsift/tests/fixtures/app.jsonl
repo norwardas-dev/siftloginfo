@@ -1,0 +1,6 @@
+{"timestamp": "2026-11-07T09:59:58Z", "level": "info", "message": "service started", "version": "0.1.0"}
+{"timestamp": "2026-11-07T10:00:04Z", "level": "debug", "message": "cache warmed", "keys": 1280}
+{"timestamp": "2026-11-07T10:03:11Z", "level": "warn", "message": "slow query detected", "duration_ms": 1840}
+{"timestamp": "2026-11-07T10:12:30Z", "level": "error", "message": "report generation failed", "error": "TimeoutError"}
+{"ts": 1794046500, "severity": "INFO", "msg": "health check ok"}
+not a json line

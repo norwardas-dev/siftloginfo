@@ -1,0 +1,8 @@
+192.168.1.10 - - [07/Nov/2026:10:00:01 +0000] "GET / HTTP/1.1" 200 5123 "-" "Mozilla/5.0"
+192.168.1.10 - - [07/Nov/2026:10:00:02 +0000] "GET /static/app.css HTTP/1.1" 200 1840 "http://example.com/" "Mozilla/5.0"
+10.0.0.7 - - [07/Nov/2026:10:01:15 +0000] "POST /api/login HTTP/1.1" 401 52 "-" "curl/8.4.0"
+10.0.0.7 - - [07/Nov/2026:10:01:16 +0000] "POST /api/login HTTP/1.1" 401 52 "-" "curl/8.4.0"
+172.16.4.2 - - [07/Nov/2026:10:05:42 +0000] "GET /api/orders HTTP/1.1" 200 932 "-" "python-requests/2.32"
+172.16.4.2 - - [07/Nov/2026:10:06:03 +0000] "GET /api/orders/9 HTTP/1.1" 404 19 "-" "python-requests/2.32"
+192.168.1.22 - - [07/Nov/2026:10:12:30 +0000] "GET /api/report HTTP/1.1" 500 0 "-" "Mozilla/5.0"
+192.168.1.22 - - [07/Nov/2026:10:12:31 +0000] "GET /api/report HTTP/1.1" 502 - "-" "Mozilla/5.0"
